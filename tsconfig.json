@@ -16,6 +16,21 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "@client/entities/*": [
+        "app/core/entities/*"
+      ],
+      "@client/gateways/*": [
+        "app/core/gateways/*"
+      ],
+      "@client/helpers/*": [
+        "app/core/helpers/*"
+      ],
+      "@client/business-rules/*": [
+        "app/core/business-rules/*"
+      ],
+    }
   }
 }
