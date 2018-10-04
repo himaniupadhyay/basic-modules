@@ -1,5 +1,5 @@
-import { Credentials } from '../../../src/app/core/entities/auth';
-import { AuthGateway } from '../../../src/app/core/gateway/auth';
+import { Credentials } from '@client/entities/auth';
+import { AuthGateway } from '@client/gateways/auth';
 import { BehaviorSubject, Observable, of as observableOf } from 'rxjs';
 import { tap } from 'rxjs/operators';
 

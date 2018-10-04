@@ -23,7 +23,7 @@
         "app/core/entities/*"
       ],
       "@client/gateways/*": [
-        "app/core/gateways/*"
+        "app/core/gateway/*"
       ],
       "@client/helpers/*": [
         "app/core/helpers/*"

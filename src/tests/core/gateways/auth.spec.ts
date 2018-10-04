@@ -1,4 +1,4 @@
-import { Credentials } from '../../../src/app/core/entities/auth';
+import { Credentials } from '@client/entities/auth';
 import { take } from 'rxjs/operators';
 import { AuthGatewayMock } from "./auth.mock";
 
